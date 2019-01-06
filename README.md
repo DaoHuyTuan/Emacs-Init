@@ -166,7 +166,7 @@ These are my customize keyblinds
 
 ## 6. Note 
 - Font Family: [Consolas](https://www.wfonts.com/font/consolas).
-- Hole File .emacs 
+- Hole File [.emacs](https://github.com/DaoHuyTuan/Emacs-Init/blob/master/.emacs) 
 ```
 (package-initialize)
 (require 'package)
