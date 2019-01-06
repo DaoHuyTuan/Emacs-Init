@@ -11,14 +11,14 @@
 - **Smooth-scroll** (To support smooth scrolling on emacs) 
 ## 3. Config detail
 
-**Evil Mode**
+#### **Evil Mode**
 ```
 ;;EVIL
 	(require 'evil)
 	(evil-mode 1)
 ```
 
-**Evil Escape**
+#### **Evil Escape**
 ```
 ;;EVIL ESCAPE
 ;;this package help remap keyblind for <ESC>
@@ -26,14 +26,14 @@
 	(setq-default evil-escape-delay 0.2) ;;set delay between 2 key
 	(setq-default evil-escape-key-sequence "jf") ;;keyblind back to Normal Mode 
 ```
-**Evil Leader**
+#### **Evil Leader**
 ```
 ;;EVIL LEADER
 ;;Map Leader key in Vim
 	(global-evil-leader-mode)
 	(evil-leader/set-leader "<SPC>")
 ```
-**Smooth Scrolling**
+#### **Smooth Scrolling**
 ```
 ;;SMOOTH SCROLL
 	(require 'smooth-scroll)
@@ -47,7 +47,7 @@
     (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
 ```
 
-**Wn Mode**
+#### **Wn Mode**
 ```
 ;;WN MODE
 	(wn-mode)
