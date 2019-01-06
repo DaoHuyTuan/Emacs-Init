@@ -27,6 +27,7 @@
 	(setq-default evil-escape-key-sequence "jf") ;;keyblind back to Normal Mode 
 ```
 #### **Evil Leader**
+>I use Space for my Vim leader key
 ```
 ;;EVIL LEADER
 ;;Map Leader key in Vim
@@ -34,6 +35,7 @@
 	(evil-leader/set-leader "<SPC>")
 ```
 #### **Wn Mode**
+> You can Switch Screen by M-1 --> M-9
 ```
 ;;WN MODE
 	(wn-mode)
@@ -69,7 +71,7 @@ These are my customize keyblinds
 (evil-leader/set-key "b" 'split-window-below)
 ;;(evil-leader/set-key "v" 'er/mark-word)
 (evil-leader/set-key "x" 'switch-to-buffer)
-(evil-leader/set-key "g" 'evil-ex)
+(evil-leader/set-key "g" 'evil-ex) ;; Change ":" in vim
 (global-set-key (kbd "M-j") 'forward-char)
 (global-set-key (kbd "M-f") 'backward-char)
 (global-set-key (kbd "M-e") 'previous-line)
@@ -95,7 +97,7 @@ These are my customize keyblinds
 (evil-leader/set-key "b" 'split-window-below)
 ;;(evil-leader/set-key "v" 'er/mark-word)
 (evil-leader/set-key "x" 'switch-to-buffer)
-(evil-leader/set-key "g" 'evil-ex)
+(evil-leader/set-key "g" 'evil-ex) ;; Change ":" in vim
 (global-set-key (kbd "s-j") 'forward-char)
 (global-set-key (kbd "s-f") 'backward-char)
 (global-set-key (kbd "s-e") 'previous-line)
