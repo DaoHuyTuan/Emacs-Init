@@ -167,4 +167,4 @@ These are my customize keyblinds
 ## 6. Note 
 - Font Family: [Consolas](https://www.wfonts.com/font/consolas).
 ## 7. Screen Shot
-![Screen Shot](https://github.com/DaoHuyTuan/Emacs-Init/blob/master/emacs.PNG "Logo Title Text 1")
+![Screen Shot](https://github.com/DaoHuyTuan/Emacs-Init/blob/master/emacs.PNG "Screen Shot")
