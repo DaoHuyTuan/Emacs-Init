@@ -4,11 +4,11 @@
 > **This is my .emacs config**
 ## 2. List Package 
 - **Helm** (for fuzzy search file)
-- **Evil** (for vim keyblind)
-- **Evil-escape** (to Switch ESC key into a other key)
-- **Evil-leader** (To customize Leader key in Vim mode)
-- **Wn-mode** (For switch to other buffer faster)
-- **Smooth-scroll** (To support smooth scrolling on emacs) 
+- [**Evil**](https://github.com/DaoHuyTuan/Emacs-Init/blob/master/README.md#evil-mode) (for vim keyblind)
+- [**Evil-escape**](https://github.com/DaoHuyTuan/Emacs-Init/blob/master/README.md#evil-escape) (to Switch ESC key into a other key)
+- [**Evil-leader**](https://github.com/DaoHuyTuan/Emacs-Init/blob/master/README.md#smooth-scrolling) (To customize Leader key in Vim mode)
+- [**Wn-mode**](https://github.com/DaoHuyTuan/Emacs-Init/blob/master/README.md#wn-mode) (For switch to other buffer faster)
+- [**Smooth-scroll**](https://github.com/DaoHuyTuan/Emacs-Init/blob/master/README.md#smooth-scrolling) (To support smooth scrolling on emacs) 
 ## 3. Config detail
 
 #### **Evil Mode**
@@ -33,6 +33,11 @@
 	(global-evil-leader-mode)
 	(evil-leader/set-leader "<SPC>")
 ```
+#### **Wn Mode**
+```
+;;WN MODE
+	(wn-mode)
+```
 #### **Smooth Scrolling**
 ```
 ;;SMOOTH SCROLL
@@ -47,11 +52,7 @@
     (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
 ```
 
-#### **Wn Mode**
-```
-;;WN MODE
-	(wn-mode)
-```
+
 
 ## 4. KeyBlinds
 These are my customize keyblinds 
