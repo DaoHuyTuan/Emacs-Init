@@ -15,7 +15,7 @@
 ```
 ;;path nodejs for Macos only 
 (setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin"))
-
+```
 #### **Evil Mode**
 ```
 ;;EVIL
