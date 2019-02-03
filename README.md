@@ -11,6 +11,11 @@
 - [**Smooth-scroll**](https://github.com/DaoHuyTuan/Emacs-Init/blob/master/README.md#smooth-scrolling) (To support smooth scrolling on emacs) 
 ## 3. Config detail
 
+#### **Run Nodejs CLI on emacs Eshell**
+```
+;;path nodejs for Macos only 
+(setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin"))
+
 #### **Evil Mode**
 ```
 ;;EVIL
